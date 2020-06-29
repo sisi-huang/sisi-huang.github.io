@@ -1760,3 +1760,5 @@ my-MM:
 # Another locale
 # --------------
 #
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
