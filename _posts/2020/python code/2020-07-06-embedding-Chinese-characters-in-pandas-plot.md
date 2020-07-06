@@ -1,6 +1,6 @@
 How to display Chinese characters in a pandas plot?
-It is common to use bar chart to visualize the frequency of different categories. I scraped the data from a Chinese job portal: [lagou](https://www.lagou.com/). What I am 
-interested is companies' categories for a data analyst in Shanghai. 
+It is common to use a bar chart to visualize the frequency of different categories. I scraped the data from a Chinese job portal: [lagou](https://www.lagou.com/). I want to see
+which kind of company require data analyst.
 ```
 import numpy as np
 import pandas as pd 
@@ -15,7 +15,7 @@ ser.index = np.array(["移动互联网","文娱","数据服务","电商","企业
 ser.plot("bar")
 ```
 
-![A bar chart without Chinese characters](/img/bar_plot_without_chinese.png)
+![A bar chart without Chinese characters](/assets/images/bar_plot_without_chinese.png)
 
 It is obvious to find out that all x-labels are not recognized. Therefore,
 We have to set up the font in the python, 
@@ -34,4 +34,6 @@ plt.show()
 
 ```
 
-![A bar chart with Chinese characters](/img/bar_plot_with_chinese.png)
+![A bar chart with Chinese characters](/assets/images/bar_plot_with_chinese.png)
+
+We can conclude that dot-com companies (互联网公司) demands for data analyst. 
