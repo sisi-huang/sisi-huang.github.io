@@ -1,4 +1,4 @@
-How to display Chinese character in a pandas plot?
+How to display Chinese characters in a pandas plot?
 It is common to use bar chart to visualize the frequency of different categories. I scraped the data from a Chinese job portal: [lagou](https://www.lagou.com/). What I am 
 interested is companies' categories for a data analyst in Shanghai. 
 ```
