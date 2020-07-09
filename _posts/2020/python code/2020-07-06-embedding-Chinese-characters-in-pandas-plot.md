@@ -1,7 +1,11 @@
+---
+permalink: /posts/
+---
+
 How to display Chinese characters in a pandas plot?
 It is common to use a bar chart to visualize the frequency of different categories. I scraped the data from a Chinese job portal: [lagou](https://www.lagou.com/). I want to see
 which kind of company require data analyst.
-```
+```python
 import numpy as np
 import pandas as pd 
 
@@ -20,7 +24,7 @@ ser.plot("bar")
 It is obvious to find out that all x-labels are not recognized. Therefore,
 We have to set up the font in the python, 
 the code here only works for macOS users.
-```
+```python
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as mfm
 
