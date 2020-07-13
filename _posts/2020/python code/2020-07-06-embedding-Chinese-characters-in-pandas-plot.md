@@ -40,4 +40,4 @@ plt.show()
 
 ![A bar chart with Chinese characters](/assets/images/bar_plot_with_chinese.png)
 
-We can conclude that dot-com companies (互联网公司) demands for data analyst. 
+We can conclude that dot-com companies (互联网公司) demands for data analyst mostly. 
