@@ -282,4 +282,5 @@ defaults:
       related: true
 
 header:
-  image: /assets/images/500x300.jpg
+  image: /assets/images/photo.jpg
+  image_description: "A description of the image"
