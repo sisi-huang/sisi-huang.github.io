@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Sisi"
-  avatar           : #"/assets/images/selifie.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/selfie.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MA Statistics Student"
   location         : "Berlin"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:huangsisi34@gmail.com"
+      url: "mailto: sisihuang@gmx.de"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://sisi-huang.github.io"
