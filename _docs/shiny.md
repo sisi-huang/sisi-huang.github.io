@@ -1,6 +1,6 @@
 ---
 permalink: /docs/shiny/
-layout: posts
+layout: single
 title: "Shiny Projects"
 ---
 
@@ -9,9 +9,22 @@ for daily updated data. As a big fan of shiny, developing my own shiny is not a 
 
 Here I list some shiny apps, some of them are developed by myself, some are cooperated with our team. (Code review on [Github](https://github.com/sisi-huang).)
 
-- [Asian restaurants in Berlin](https://sisihuang.shinyapps.io/interactivemap/)
-- [DDWizard](https://eos.wzb.eu/ipi/DDWizard/)
+
+- [Asian Restaurants in Berlin](https://eos.wzb.eu/ipi/CausalQueries/)
+
+<center><img src= "/assets/images/sc-1.png"></center>
+<center>Shiny: Asian Restaurants in Berlin</center>
+
+
+
 - [CausalQueries Demo](https://eos.wzb.eu/ipi/CausalQueries/)
+
+![CausalQueries Demo](/assets/images/sc-2.png)
+
+- [DDWizard](https://eos.wzb.eu/ipi/DDWizard/)
+
+![DDWizard](/assets/images/sc-3.png)
+
 - Covid-19 Shiny (will be released soon!)
 
 
