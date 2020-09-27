@@ -1,40 +1,19 @@
 ---
 permalink: /docs/ml/
 title: "Machine Learning Notes"
+layout: posts
 ---
 
-Master thesis 
-Abstract: Labelling massive datasets consisting of images from webpages manually is quite time-consuming and also exhausting.
-If there was a tool which can help us to classify those unlabeled images automatically, it would not
-overwhelm us nearly as much. In this thesis we aim to extract significant features from images and to
-automate the annotation of unlabeled images.
+- [Master thesis](https://edoc.hu-berlin.de/handle/18452/22325;jsessionid=21F89817368EA040AFB0819B6D14A0FB): 
 
-Due to the variety of images, we focus our 
-attention on solving the problem of chart image classification. Chart images are
-frequently presented in documents and used as a common tool for visualizing relationships within the data.
-Especially, they are able to distinguish themselves by their patterns or shapes.
-To deal with
-this problem we propose machine learning models that 
-can extract the images' features automatically, and predict their labels. 
-Convolutional neural networks are the popular models for solving such problem of image classification.
-Thus, it is our goal to bridge the relationship between chart images and neural networks. 
+An Image Classification Tool of Wikimedia Commons
 
-In this thesis we attempt two directions to implement convolutional neural networks:
-transfer learning and self-training models.
-On a set of testing data a model using transfer learning based on the VGG-16 pre-trained model, 
-achieves a test accuracy of up to 0.65. 
-Self-training models are LeNet-5, Alex blocks and VGG blocks, which are grounded by 
-AlexNet and VGG. 
-However, performances of self-training models are sightly 
-worse than transfer learning, the highest prediction accuracy of 
-the self-training models is only 0.47. 
-%Hence, transfer learning is a great approach for 
-%labeling imbalanced chart images.
+- CNN(Convolutional neural network): 
 
-\noindent\textbf{Key words:} Image Labelling, Convolutional Neural Network, 
-Transfer learning, Machine Learning 
+A CNN is a special kind of neural network, which has been successfully applied for image classification, video recognition, recommendation system, etc. The CNN is also considered as an improved version of a multilayered network, whose elements are similar to the feedforward neural network: input layer, output layer and multiple hidden layers.
+
+- Transfer Learning: 
+
+Transfer Learning is a machine learning technique that pays attention to store the acquired knowledge from the solution of a problem, and then apply the common part of this knowledge to solve another problem. Humans are good at transferring the knowledge that they have already acquired, to a new field. For example, a badminton player has an advantage of learning how to play tennis: even though badminton rules are different from tennis rules, they are similar to each other. With the help of ”transfer learning”, this player is able to apply the common sense of the knowledge in playing badminton to play tennis.
 
 
-
-- CNN
-- Transfer learning
