@@ -8,3 +8,4 @@ Data visualization tools
 - Python: matplotlib
 - Power BI
 - Tableau
+- SQL statement 
